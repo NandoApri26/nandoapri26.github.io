@@ -1,0 +1,467 @@
+body {
+  font: 16px/28px poppins, sans-serif;
+  color: #333;
+}
+/* Awal Navbar */
+.navbar {
+  width: 100%;
+  height: 70px;
+}
+.navbar img {
+  width: 190px;
+}
+.navbar ul li a {
+  font-size: 12px;
+  font-weight: 500;
+  margin-top: 5px;
+}
+.navbar li:hover {
+  background-color: #ededed;
+  border-bottom: 3px solid #333;
+}
+.enquire a {
+  background-color: #000;
+  color: #fff;
+  font-weight: 500;
+  border-radius: 5px;
+}
+.enquire a:hover {
+  background-color: #fff;
+  color: #000;
+  border-radius: 5px;
+}
+.enquire ul li a {
+  font-size: 14px;
+  font-weight: normal;
+  border-bottom: 3px solid #fff;
+  padding: 10px;
+}
+/* Akhir Navbar */
+
+/* Awal Video Tron */
+#video-tron .tour_name ul {
+  list-style: none;
+  padding: 530px 0 0 20px;
+}
+#video-tron .tour_name a {
+  writing-mode: vertical-lr;
+  display: inline;
+  color: #333;
+  padding: 10px;
+  /* margin-left: 0; */
+  word-spacing: 2px;
+  letter-spacing: 1.2px;
+  transform: rotate(180deg);
+  border-radius: 25px;
+  text-decoration: none;
+  font-size: 12px;
+  font-weight: bold;
+}
+#video-tron .tour_video video {
+  width: 100%;
+  max-width: max-content;
+}
+/* Akhir Video Tron */
+
+/* Awal Content1 */
+#Contain_1 .contain_p1 p {
+  width: 520px;
+  padding: 30px 0 0 100px;
+}
+#Contain_1 .contain_p2 h1 {
+  width: 900px;
+  padding: 0 0 0 100px;
+  font: 96px/78px "Times New Roman";
+  font-weight: bold;
+}
+#Contain_1 .contain_p2 h6 {
+  width: 665px;
+  padding: 30px 0 0 100px;
+  text-align: justify;
+  font-weight: normal;
+}
+#Contain_1 .contain_p2 h4 {
+  width: 665px;
+  padding: 10px 0 0 100px;
+  text-align: justify;
+  font-weight: normal;
+  font: 35px/25px "Times New Roman";
+}
+#Contain_1 .bg {
+  background-color: #ececec;
+  width: 1100px;
+  height: 350px;
+  margin-top: -300px;
+}
+/* Akhir Content 1 */
+
+/* Awal Contain 2 */
+#Contain_2 .contain_2 h6,
+#Contain_2 .contain_2 p {
+  margin: 90px 0 0 100px;
+  font-weight: normal;
+}
+#Contain_2 .contain_2 h1 {
+  font: 50px/52px "times new roman";
+  font-weight: bold;
+  margin: 5px 0 0 100px;
+}
+#Contain_2 .legend {
+  padding: 70px 0 0 100px;
+}
+#Contain_2 .maps img {
+  padding: 70px 0 0 50px;
+  width: 100%;
+  max-height: max-content;
+  object-fit: cover;
+}
+#Contain_2 .legend .icon {
+  display: inline-block;
+  border-radius: 50%;
+}
+#Contain_2 .legend .icon:hover {
+  border: 2px solid #fff;
+}
+#Contain_2 .lodges .icon {
+  background-color: goldenrod;
+  width: 20px;
+  height: 20px;
+}
+#Contain_2 .hotels .icon {
+  background-color: rgb(36, 147, 120);
+  width: 20px;
+  height: 20px;
+}
+#Contain_2 .residences .icon {
+  background-color: grey;
+  width: 20px;
+  height: 20px;
+}
+/* Akhir Contain 2 */
+
+/* Awal Properti-1 */
+#Properti-1 .text-image {
+  margin-top: -250px;
+  text-align: center;
+}
+#Properti-1 .text-image a {
+  text-decoration: none;
+  text-shadow: 2px 2px 3px black;
+}
+#Properti-1 .Gambar img {
+  width: 100%;
+  height: 750px;
+  object-fit: cover;
+  padding: 50px 50px;
+}
+#Properti-1 .text-image p {
+  color: #fff;
+  margin: auto;
+  font-weight: bold;
+  font: 18px/34px "times new roman";
+}
+#Properti-1 .text-image h4 {
+  color: #fff;
+  font: 38px/24px "times new roman";
+}
+#Properti-1 .btn {
+  color: #fff;
+  margin-top: 30px;
+  margin-bottom: 50px;
+  border: 2px solid white;
+}
+#Properti-1 .btn:hover {
+  background-color: transparent;
+  opacity: 0.6;
+}
+/* Akhir Properti-1 */
+
+/* ==== Awal Experiences ==== */
+#Experiences .Judul-Experien {
+  margin: 80px 0px 0px 230px;
+}
+#Experiences .Judul-Experien p {
+  margin: 0;
+  font: 14px/54px Poppins;
+  font-weight: 400;
+  letter-spacing: 2px;
+}
+#Experiences .Judul-Experien h3 {
+  margin: 0;
+  font: 58px/64px "Times New Roman";
+  font-weight: bold;
+  /* line-height: 2.5rem; */
+  box-sizing: border-box;
+  display: block;
+  max-width: 70%;
+  width: 34.375rem;
+  color: #262633;
+}
+#Experiences .Item .Experience-Gambar img {
+  width: 100%;
+  height: 650px;
+  object-fit: cover;
+  margin: 50px 0px;
+}
+#Experiences .Experience-Text {
+  background-color: #fff;
+  margin-left: -120px;
+  max-height: 650px;
+  color: #666;
+}
+#Experiences .Experience-Text h3 {
+  margin-top: 150px;
+  font: 34px/14px "Times New Roman";
+  margin-left: 30px;
+  color: #000;
+}
+#Experiences .Experience-Text-Header {
+  font: 0.75rem/14px Raleway;
+  font-weight: 700;
+  letter-spacing: 0.15rem;
+  margin-left: 30px;
+}
+#Experiences .Experience-Text-Isi {
+  font: 1.1em/24px Relaway;
+  margin-left: 30px;
+}
+#Experiences .fa-chevron-left,
+.fa-chevron-right {
+  font-size: 30px;
+  color: rgb(250, 196, 46);
+}
+#Experiences .fa-chevron-left:hover,
+.fa-chevron-right:hover {
+  color: #000;
+}
+#Experiences .carousel-indicators [data-bs-target] {
+  width: 13px;
+  height: 8px;
+  background-color: #fff;
+  border-top: 50px solid transparent;
+  border-bottom: 50px solid transparent;
+  opacity: 0.5;
+  transition: opacity 0.6s ease;
+}
+#Experiences .carousel-indicators [data-bs-target]:hover {
+  background-color: rgb(255, 81, 0);
+}
+/* ==== Akhir Experiences ==== */
+
+/* ==== Designed Especially Start */
+#Designed-Expecially .class-designed {
+  background-color: #f5f5f5;
+}
+#Designed-Expecially .heading h5 {
+  margin-left: 30px;
+  margin-top: 100px;
+  font-size: 2.5rem;
+  line-height: 2.5rem;
+  font-family: PlayfairDisplay-Regular, serif;
+  font-weight: 400;
+  letter-spacing: -0.03em;
+}
+#Designed-Expecially .class-designed p {
+  margin-left: 30px;
+  font-family: Raleway, sans-serif;
+  font-weight: 400;
+  color: #666;
+}
+#Designed-Expecially .find-out-more-button a {
+  text-decoration: none;
+  margin-left: 30px;
+  color: #666;
+  font-weight: 500;
+  font-family: raleway;
+  font-size: 14px;
+}
+#Designed-Expecially .Gambar img {
+  width: 100%;
+  height: 350px;
+  object-fit: cover;
+}
+#Designed-Expecially .Heading-designed {
+  background-color: #262633;
+}
+#Designed-Expecially .pembungkus {
+  padding: 50px;
+  color: #fff;
+}
+#Designed-Expecially .Heading-designed p {
+  font-family: raleway;
+  font-size: 12px;
+}
+#Designed-Expecially .Heading-designed h3 {
+  font-family: PlayfairDisplay-Bold, serif;
+  font-size: 55px;
+  line-height: 4.0625rem;
+  letter-spacing: -0.03em;
+  max-width: 480px;
+}
+#Designed-Expecially .btn-outline-light {
+  border-radius: 0;
+  margin-top: 30px;
+  background-color: #262633;
+  font: 12px/24px raleway-semibold;
+}
+#Designed-Expecially .btn-outline-light:hover {
+  border-top: #fff;
+  border-right: #fff;
+  border-left: #fff;
+  color: #fff;
+}
+/* ==== Designed Especially End */
+
+/* ==== More Stories Start*/
+#More-Stories .heading {
+  margin-top: 200px;
+}
+#More-Stories .heading p {
+  font: 14px/24px Raleway-SemiBold;
+  font-weight: normal;
+  letter-spacing: 2px;
+}
+#More-Stories .heading h3 {
+  font: 48px/48px PlayfairDisplay-Bold;
+  font-weight: bold;
+  letter-spacing: 2px;
+  margin-top: -10px;
+}
+#More-Stories .btn-outline-dark {
+  margin-top: 85px;
+  background-color: #fff;
+  border-radius: 0px;
+  font: 14px/24px Raleway;
+  letter-spacing: 2px;
+  font-weight: bold;
+  color: #666;
+}
+#More-Stories .btn-outline-dark:hover {
+  background-color: #fff;
+  border-radius: 0px;
+  color: #666;
+  border-top: 0px;
+  border-right: 0px;
+  border-left: 0px;
+  border-bottom: 2px solid;
+}
+#More-Stories .card {
+  margin-top: 100px;
+  border-top: 0px;
+  border-right: 0px;
+  border-left: 0px;
+  border-bottom: 1.5px solid;
+  border-radius: 0px;
+  border-color: rgb(215, 215, 215);
+}
+#More-Stories .card img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+}
+#More-Stories .card span {
+  font: 14px/24px Raleway;
+}
+#More-Stories .card h5 {
+  font: 28px/36px PlayfairDisplay-Bold;
+  font-weight: bold;
+}
+#More-Stories .card a {
+  font: 12px/24px Raleway;
+  letter-spacing: 2px;
+  color: #000;
+  font-weight: bold;
+  text-decoration: none;
+}
+/* ==== More Stories End*/
+
+/* Awal Form */
+#Form .bg-form {
+  background-color: rgb(236, 236, 236);
+  margin-top: 50px;
+}
+#Form .text {
+  margin-top: 30px;
+  text-align: center;
+}
+#Form .text p {
+  font: 18px/32px "times new roman";
+}
+#Form .text h4 {
+  font: 36px/32px "times new roman";
+}
+#Form .text span {
+  font: 14px/14px "arial";
+}
+#Form .form-stories label {
+  font: 10px "poppins";
+  font-weight: bold;
+}
+#Form .btn {
+  background-color: #000;
+  color: #fff;
+  border-radius: 0;
+  float: right;
+  margin-bottom: 50px;
+}
+#Form .btn:hover {
+  background-color: #fff;
+  color: #000;
+  border-bottom: 5px solid #000;
+  margin-bottom: 50px;
+}
+/* Akhir Form */
+
+/* Awal Footer */
+#Footer .bg-footer {
+  background-color: rgb(47, 48, 72);
+  margin-top: 50px;
+}
+#Footer .Logo img {
+  margin-top: 30px;
+  width: 100%;
+}
+#Footer .sosmed ul li {
+  display: inline-block;
+  margin-top: 20px;
+  padding-left: 25px;
+}
+#Footer .sosmed a {
+  text-decoration: none;
+}
+#Footer .sosmed a:hover {
+  opacity: 0.4;
+}
+#Footer .sosmed i {
+  font-size: 40px;
+  color: white;
+  margin-right: 20px;
+}
+#Footer .footer-menu h6 {
+  margin-top: 30px;
+  color: #fff;
+}
+#Footer .footer-menu ul li {
+  margin-left: -30px;
+  list-style: none;
+}
+#Footer .footer-menu a {
+  text-decoration: none;
+  font: 16px/32px neuton;
+  color: #c9c9c9;
+}
+#Footer .footer-menu a:hover {
+  color: #fff;
+}
+#Footer .copyright a,
+#Footer .policy a {
+  text-decoration: none;
+  font: 18px/32px neuton;
+  color: #c9c9c9;
+}
+#Footer .policy ul li {
+  display: inline-block;
+  padding-left: 25px;
+}
+
+/* Akhir Footer */

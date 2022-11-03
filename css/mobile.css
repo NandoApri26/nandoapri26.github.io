@@ -1,0 +1,330 @@
+@media (max-width: 720px) {
+  /* Awal Navbar */
+  .navbar {
+    width: 100%;
+    height: 70px;
+  }
+  .navbar img {
+    width: 190px;
+  }
+  .navbar ul li a {
+    font-size: 12px;
+    font-weight: 500;
+  }
+  .navbar li:hover {
+    background-color: #ededed;
+    border-bottom: 3px solid #333;
+  }
+  .enquire a {
+    background-color: #000;
+    color: #fff;
+    font-weight: 500;
+    border-radius: 5px;
+  }
+  .enquire a:hover {
+    background-color: #fff;
+    color: #000;
+    border-radius: 5px;
+  }
+  .enquire ul li a {
+    font-size: 14px;
+    font-weight: normal;
+    border-bottom: 3px solid #fff;
+    padding: 10px;
+  }
+  /* Akhir Navbar */
+
+  /* Awal Video Tron */
+  #video-tron .tour_name ul {
+    list-style: none;
+    padding: 70px 0 0 0;
+  }
+  #video-tron .tour_name a {
+    writing-mode: vertical-lr;
+    display: inline;
+    color: #333;
+    padding: 10px;
+    /* margin-left: 0; */
+    word-spacing: 2px;
+    letter-spacing: 1.2px;
+    transform: rotate(180deg);
+    border-radius: 25px;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: bold;
+  }
+
+  #video-tron .tour_video video {
+    width: 100%;
+    background-size: contain;
+    max-height: max-content;
+    margin-top: 50px;
+    display: inline-block;
+    position: relative;
+  }
+  /* Akhir Video Tron */
+
+  /* Awal Content1 */
+  #Contain_1 .contain_p1 p {
+    width: 100%;
+    padding: 30px 0 0 40px;
+    font-size: 16px;
+    text-align: justify;
+  }
+  #Contain_1 .contain_p2 h1 {
+    width: 100%;
+    padding: 0 0 0 40px;
+    font: 52px/48px "Times New Roman";
+    font-weight: bold;
+  }
+  #Contain_1 .contain_p2 h6 {
+    width: 310px;
+    padding: 30px 0 0 40px;
+    text-align: left;
+    font: 18px/24px "sans";
+    font-weight: normal;
+  }
+  #Contain_1 .contain_p2 h4 {
+    width: 80%;
+    padding: 10px 0 0 40px;
+    font-weight: lighter;
+    font: 28px/25px "Times New Roman";
+  }
+  #Contain_1 .bg {
+    background-color: #ececec;
+    width: 100%;
+    height: 550px;
+    margin-top: -540px;
+  }
+  /* Akhir Content 1 */
+
+  /* Awal Contain 2 */
+  #Contain_2 .contain_2 h6 {
+    margin: 90px 0 0 40px;
+    font-weight: normal;
+  }
+  #Contain_2 .contain_2 h1 {
+    font: 50px/48px "times new roman";
+    font-weight: bold;
+    margin: 0 0 0 40px;
+  }
+  #Contain_2 .contain_2 p {
+    margin: 5px 0 0 40px;
+    font-weight: normal;
+  }
+
+  #Contain_2 .legend {
+    padding: 70px 0 0 50px;
+    display: inline-block;
+  }
+  #Contain_2 .maps img {
+    padding: 30px 0 0 0;
+    width: 100%;
+    height: 450px;
+    object-fit: contain;
+  }
+  #Contain_2 .legend .icon {
+    border-radius: 50%;
+  }
+  #Contain_2 .legend .icon:hover {
+    border: 2px solid #fff;
+  }
+  #Contain_2 .lodges .icon {
+    background-color: goldenrod;
+    width: 20px;
+    height: 20px;
+  }
+  #Contain_2 .hotels .icon {
+    background-color: rgb(36, 147, 120);
+    width: 20px;
+    height: 20px;
+  }
+  #Contain_2 .residences .icon {
+    background-color: grey;
+    width: 20px;
+    height: 20px;
+  }
+  /* Akhir Contain 2 */
+
+  /* Awal Properti-1 */
+  #Properti-1 .text-image {
+    margin-top: -150px;
+    text-align: center;
+  }
+  #Properti-1 .text-image a {
+    text-decoration: none;
+    text-shadow: 2px 2px 3px black;
+  }
+  #Properti-1 .Gambar img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    padding: 25px 25px;
+  }
+  #Properti-1 .text-image p {
+    color: #fff;
+    margin: auto;
+    font-weight: bold;
+    font: 12px/14px "times new roman";
+  }
+  #Properti-1 .text-image h4 {
+    color: #fff;
+    font: 14px/18px "times new roman";
+    font-weight: bold;
+  }
+  #Properti-1 .btn-outline-primary a {
+    font: 14px/5px "times new roman";
+  }
+  #Properti-1 .btn {
+    color: #fff;
+    margin-top: 10px;
+  }
+  /* ==== Akhir Properti-1 ==== */
+
+  /* ==== Awal Experiences ==== */
+  #Experiences .Judul-Experien {
+    margin: 0px 0px 0px 15px;
+    width: 50%;
+  }
+  #Experiences .Judul-Experien p {
+    margin: 0;
+    font: 14px/54px Poppins;
+    font-weight: 500;
+    letter-spacing: 2px;
+    color: #666;
+  }
+  #Experiences .Judul-Experien h3 {
+    margin-top: -20px;
+    font: 42px/48px "Times New Roman";
+    font-weight: 550;
+    box-sizing: border-box;
+    display: block;
+    max-width: 70%;
+    width: 34.375rem;
+    color: #444;
+  }
+  #Experiences .Item .Experience-Gambar img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    margin-top: 50px;
+  }
+  #Experiences .Experience-Text {
+    background-color: #fff;
+    margin-left: 50px;
+    max-height: 250px;
+    color: #666;
+    margin-top: -100px;
+  }
+  #Experiences .Experience-Text h3 {
+    margin-top: 50px;
+    font: 34px/32px "Times New Roman";
+    margin-left: 30px;
+    color: #000;
+  }
+  #Experiences .Experience-Text-Header {
+    font: 0.75rem/14px Raleway;
+    font-weight: 700;
+    letter-spacing: 0.15rem;
+    margin-left: 30px;
+  }
+  #Experiences .Experience-Text-Isi {
+    font: 1.1em/24px Relaway;
+    margin-left: 30px;
+  }
+  #Experiences .fa-chevron-left,
+  .fa-chevron-right {
+    font-size: 30px;
+    color: #fff;
+  }
+  #Experiences .fa-chevron-left:hover,
+  .fa-chevron-right:hover {
+    color: rgb(237, 140, 5);
+  }
+  #Experiences .carousel-indicators [data-bs-target] {
+    width: 13px;
+    height: 8px;
+    background-color: #fff;
+    border-top: 240px solid transparent;
+    border-bottom: 240px solid transparent;
+  }
+  /* ==== Akhir Experiences ==== */
+
+  /* ==== Designed Especially Start */
+  #Designed-Expecially .container-fluid {
+    margin-top: 100px;
+  }
+  #Designed-Expecially .Heading-designed {
+    background-color: #262633;
+  }
+  #Designed-Expecially .pembungkus {
+    padding: 50px 10px;
+    color: #fff;
+    display: inline-block;
+  }
+  #Designed-Expecially .Heading-designed p {
+    font-family: raleway;
+    font-size: 12px;
+  }
+  #Designed-Expecially .Heading-designed h3 {
+    font-family: PlayfairDisplay-Bold, serif;
+    font-size: 37px;
+    letter-spacing: 2px;
+    line-height: 42px;
+    font-weight: bold;
+  }
+  #Designed-Expecially .btn-outline-light {
+    border-radius: 0;
+    margin-top: 15px;
+    background-color: #262633;
+    font: 14px/24px raleway-semibold;
+    letter-spacing: 2px;
+  }
+  #Designed-Expecially .btn-outline-light:hover {
+    border-top: #fff;
+    border-right: #fff;
+    border-left: #fff;
+    color: #fff;
+  }
+  /* ==== Designed Especially End */
+
+  /* ==== More-Stories Start ==== */
+  #More-Stories .card img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+  }
+  #More-Stories .card span {
+    font: 14px/24px Raleway;
+  }
+  #More-Stories .card h5 {
+    font: 24px/28px PlayfairDisplay-Bold;
+    font-weight: bold;
+  }
+  #More-Stories .card a {
+    font: 10px/24px Raleway;
+    letter-spacing: 2px;
+    color: #000;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  /* ==== More-Stories End ==== */
+
+  /* ==== Awal Footer ==== */
+  #Footer .Logo img {
+    margin-top: 30px;
+    width: 50%;
+    margin-left: 125px;
+  }
+  #Footer .sosmed i {
+    font-size: 20px;
+    color: white;
+    margin-left: 0;
+    margin-top: 20px;
+  }
+  #Footer .policy ul {
+    margin-left: -57px;
+    list-style: none;
+  }
+  /* Akhir Properti-1 */
+}
